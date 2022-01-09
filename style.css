@@ -1,0 +1,47 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+
+@keyframes colorful{
+    50%{background-color: cadetblue;}
+    100%{background-color: aqua;}
+}
+
+body{
+    font-family: 'Segoe UI';
+    animation: infinite 5s colorful;
+    background-color: aqua;
+}
+#header__main, em{
+    text-align: center;
+    background-color: beige;
+    margin: 0vmin;
+    display: block;
+}
+.bigtext{
+    border-bottom: 1mm blue solid;
+    display: inline-block;
+    margin-left: 5px;
+}
+#links{
+    margin-left: -7vmin;
+    display: none;
+    list-style: none;
+}
+#section__center{
+    text-align: center;
+    position: relative;
+    top: 15vmax;
+    left: 25vw;
+    width: 50vw;
+}
+.button{
+    margin: 7px auto 15px 0px;
+    background-color: chartreuse;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 2mm;
+    transition: background-color 1s;
+}
+.button:hover{
+    background-color: green;
+}
+
