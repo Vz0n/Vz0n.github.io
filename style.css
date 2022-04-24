@@ -3,7 +3,7 @@
 body{
     font-family: 'Segoe UI';  
     background: url("./background.jpg") no-repeat;
-    background-size: cover;
+    background-size: calc(109vh + 109vw);
 }
 #header__main{
     text-align: center;
